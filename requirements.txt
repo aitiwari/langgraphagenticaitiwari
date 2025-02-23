@@ -8,3 +8,4 @@ langchain_groq==0.2.4
 chromadb
 llama-index-embeddings-huggingface==0.5.1
 tavily-python==0.5.1
+sqlite3 >= 3.35.0
