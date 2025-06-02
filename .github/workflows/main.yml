@@ -29,5 +29,5 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git remote set-url origin https://genaitiwari:${HF_TOKEN}@huggingface.co/spaces/genaitiwari/langgraphagenticaitiwari
+          git remote set-url origin https://genaitiwari:${HF_TOKEN}@huggingface.co/spaces/genaitiwari/langgraphagenticaitiwari2
           git push --force origin main
